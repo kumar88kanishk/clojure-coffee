@@ -10,6 +10,7 @@
                  [compojure "1.7.1"]
                  [org.clojure/data.json "2.5.0"]
                  [com.novemberain/monger "3.5.0"]
-                 [ring/ring-devel "1.12.2"]]
+                 [ring/ring-devel "1.12.2"]
+                 [crypto-password "0.3.0"]]
   :main clojure-coffee.server
   :repl-options {:init-ns clojure-coffee.core})
