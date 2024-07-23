@@ -6,6 +6,6 @@
 
 (defn -main
   [& args]
-  (jetty/run-jetty routes/app-routes
+  (jetty/run-jetty routes/reloadable-app
                    {:port 3000
                     :join? true}))
