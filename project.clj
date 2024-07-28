@@ -8,6 +8,7 @@
                  [ring/ring-jetty-adapter "1.12.2"]
                  [clj-time "0.15.2"]
                  [compojure "1.7.1"]
+                 [cheshire "5.1.1"]
                  [org.clojure/data.json "2.5.0"]
                  [com.novemberain/monger "3.5.0"]
                  [ring/ring-devel "1.12.2"]
